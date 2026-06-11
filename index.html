@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
+<title>Kumar Aditya Subham — Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<nav>
+  
+  <button class="menu-btn" id="menuBtn">☰</button>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#" data-page="home" class="nav-link active">Home</a></li>
+    <li><a href="#" data-page="about" class="nav-link">About</a></li>
+    <li><a href="#" data-page="skills" class="nav-link">Skills</a></li>
+    <li><a href="#" data-page="projects" class="nav-link">Projects</a></li>
+    <li><a href="#" data-page="experience" class="nav-link">Experience</a></li>
+    <li><a href="#" data-page="resume" class="nav-link">Resume</a></li>
+    <li><a href="#" data-page="contact" class="nav-link">Contact</a></li>
+  </ul>
+</nav>
+
+<button class="theme-toggle" id="themeToggle">🌙</button>
+
+<main>
+  <!-- Home Page -->
+  <div id="home-page" class="page active">
+    <section id="hero-section">
+      <div class="hero-inner">
+        <div class="hero-photo-wrap scroll-reveal-left">
+          <div class="photo-ring"></div>
+          <div class="photo-inner">
+            <img src="images/Picture.jpg" alt="Profile" style="width:100%; height:100%; object-fit:cover; border-radius:50%;">
+          </div>
+        </div>
+        <div class="hero-text scroll-reveal-right">
+          <p class="greeting">Hello, I'm</p>
+          <h1>Kumar Aditya Subham</h1>
+          <p class="tagline"> Computer Engineering Student · Web Developer · Problem Solver</p>
+          <p class="bio">Passionate Computer Engineering student at the intersection of code and creativity. Currently interning while building real-world solutions through hackathons and collaborative projects.</p>
+          <div class="badge-container">
+            <span class="badge">B.E. Computer Engineering</span>
+            <span class="badge">Second Year</span>
+            <span class="badge">Pune, Maharashtra</span>
+          </div>
+          <div class="cta-buttons">
+            <a href="#" data-page="projects" class="btn-primary nav-link">View Projects</a>
+            <a href="#" data-page="resume" class="btn-resume nav-link">📄 View Resume</a>
+            <a href="#" data-page="contact" class="btn-ghost nav-link">Get in Touch</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+ <!-- About Page -->
+<div id="about-page" class="page">
+  <div class="page-header">
+    <h1>About Me</h1>
+    <p>Get to know me better</p>
+  </div>
+
+  <div class="about-container">
+    <!-- Profile Section -->
+    <div class="about-profile">
+      <div class="profile-text">
+        <h2>HELLO THERE...</h2>
+        <h3>I'm Kumar Aditya Subham, A Passionate Computer Engineering Student & Web Developer</h3>
+        <p>I am currently in my second year of Computer Engineering, driven by a deep passion for building elegant solutions through code. My journey in tech started with curiosity about how websites work, and that curiosity has evolved into a love for full-stack development and problem-solving.</p>
+        <p>As a web developer, I specialize in creating responsive, user-friendly applications using modern technologies. I believe that great software isn't just about functionality—it's about creating experiences that make a difference in people's lives.</p>
+        <p>Apart from coding, I love exploring new technologies and staying updated with the latest trends in the tech world. In my free time, I enjoy reading tech blogs.</p>
+        
+        <div class="profile-buttons">
+
+          <a href="#" data-page="projects" class="btn-primary nav-link">View My Work</a>
+          <a href="#" data-page="resume" class="btn-resume nav-link">Download Resume</a>
+        </div>
+      </div>
+      <div class="profile-image">
+        <div class="profile-img-wrapper">
+          <img src="images/Photo.jpg" alt="Kumar Aditya Subham" id="aboutPhoto">
+        </div>
+      </div>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="about-skills-section">
+      <h2>Skills</h2>
+      <p class="skills-subtitle">Core DSA and Web Development Skills. Upcoming System-Design Learner @ end of 2026</p>
+      
+      <div class="skill-bar-item">
+        <div class="skill-info">
+          <span class="skill-name">Front-End</span>
+          <span class="skill-percent">0%</span>
+        </div>
+        <div class="skill-bar-bg">
+          <div class="skill-bar-fill"></div>
+        </div>
+        <p class="skill-desc">Almost Perfect in Front-End and towards perfection.</p>
+      </div>
+
+      <div class="skill-bar-item">
+        <div class="skill-info">
+          <span class="skill-name">Back-End</span>
+          <span class="skill-percent">0%</span>
+        </div>
+        <div class="skill-bar-bg">
+          <div class="skill-bar-fill"></div>
+        </div>
+        <p class="skill-desc">Still working on Back-End skills.</p>
+      </div>
+
+      <div class="skill-bar-item">
+        <div class="skill-info">
+          <span class="skill-name">Databases</span>
+          <span class="skill-percent">0%</span>
+        </div>
+        <div class="skill-bar-bg">
+          <div class="skill-bar-fill"></div>
+        </div>
+        <p class="skill-desc">Need to Brush up and work more on databases.</p>
+      </div>
+
+      <div class="skill-bar-item">
+        <div class="skill-info">
+          <span class="skill-name">Data-Structure</span>
+          <span class="skill-percent">0%</span>
+        </div>
+        <div class="skill-bar-bg">
+          <div class="skill-bar-fill"></div>
+        </div>
+        <p class="skill-desc">A continuous learner and getting better.</p>
+      </div>
+    </div>
+
+    
+
+    <!-- Quote Section -->
+    <div class="about-quote-section">
+      <div class="quote-box">
+        <p>"NOT IMMEDIATELY, BUT DEFINITELY."</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Skills Page -->
+  <div id="skills-page" class="page">
+    <div class="page-header">
+      <h1>Skills & Expertise</h1>
+      <p>Technologies and abilities I bring to the table</p>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-card scroll-reveal">
+        <div class="skill-icon">💻</div>
+        <h3>Programming Languages</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">C</span>
+          <span class="skill-tag">C++</span>
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">Java</span>
+          <span class="skill-tag">JavaScript</span>
+        </div>
+      </div>
+      <div class="skill-card scroll-reveal">
+        <div class="skill-icon">🌐</div>
+        <h3>Web Development</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">HTML5</span>
+          <span class="skill-tag">CSS3</span>
+          
+          
+        </div>
+      </div>
+      <div class="skill-card scroll-reveal">
+        <div class="skill-icon">🗄️</div>
+        <h3>Database</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">MySQL</span>
+          <span class="skill-tag">MongoDB</span>
+          
+          <span class="skill-tag">DBMS</span>
+        </div>
+      </div>
+      <div class="skill-card scroll-reveal">
+        <div class="skill-icon">🤝</div>
+        <h3>Soft Skills</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">Team Management</span>
+          <span class="skill-tag">Communication</span>
+          <span class="skill-tag">Problem Solving</span>
+          <span class="skill-tag">Leadership</span>
+        </div>
+      </div>
+      <div class="skill-card scroll-reveal">
+        <div class="skill-icon">🎨</div>
+        <h3>Tools & Design</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">Git/GitHub</span>
+          <span class="skill-tag">Figma</span>
+          <span class="skill-tag">VS Code</span>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Projects Page -->
+  <div id="projects-page" class="page">
+    <div class="page-header">
+      <h1>My Projects</h1>
+      <p>Real-world solutions I've built and contributed to</p>
+    </div>
+    <div class="projects-grid">
+      <div class="project-card scroll-reveal" data-project="cyber">
+        <p class="project-type">🏆 Hackathon Project</p>
+        <h3>Cyber Security Problem Statement</h3>
+        <p class="project-desc">Developed solutions addressing real-world cyber security challenges in a competitive hackathon environment.</p>
+        <div>
+          <span class="project-tech">Cybersecurity</span>
+          <span class="project-tech">Risk Assessment</span>
+          <span class="project-tech">Team Collab</span>
+        </div>
+      </div>
+      <div class="project-card scroll-reveal" data-project="healthcare">
+        <p class="project-type">🏥 Hackathon Project</p>
+        <h3>Healthcare System for Workers</h3>
+        <p class="project-desc">Designed a platform improving healthcare accessibility for workers in Kerala with focus on usability.</p>
+        <div>
+          <span class="project-tech">System Design</span>
+          <span class="project-tech">Healthcare</span>
+          <span class="project-tech">UX Research</span>
+        </div>
+      </div>
+      <div class="project-card scroll-reveal" data-project="avishkar">
+        <p class="project-type">📚 Research Competition</p>
+        <h3>Avishkar Competition</h3>
+        <p class="project-desc">Presented innovative engineering solutions and research on sustainable technology integration.</p>
+        <div>
+          <span class="project-tech">Research</span>
+          <span class="project-tech">Innovation</span>
+          <span class="project-tech">Presentation</span>
+        </div>
+      </div>
+      <div class="project-card scroll-reveal" data-project="portfolio">
+        <p class="project-type">🎯 Personal Project</p>
+        <h3>Personal Portfolio Website</h3>
+        <p class="project-desc">Built a responsive portfolio with dark/light mode, multi-page navigation, and smooth animations.</p>
+        <div>
+          <span class="project-tech">HTML/CSS</span>
+          <span class="project-tech">JavaScript</span>
+          <span class="project-tech">Responsive Design</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Experience Page -->
+  <div id="experience-page" class="page">
+    <div class="page-header">
+      <h1>Experience</h1>
+      <p>Professional journey and internships</p>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item scroll-reveal-left">
+        <div class="timeline-header">
+          <span class="timeline-role">Software Intern</span>
+          <span class="timeline-date">2025 - Present</span>
+        </div>
+        <div class="timeline-company">Software Elite Company</div>
+        <p class="timeline-desc">Gaining hands-on experience in software development, working with modern development tools and technologies. Collaborating with senior developers on real-world projects, participating in code reviews, and implementing features for client applications.</p>
+      </div>
+      <div class="timeline-item scroll-reveal-right">
+        <div class="timeline-header">
+          <span class="timeline-role">Hackathon Participant</span>
+          <span class="timeline-date">2024 - 2025</span>
+        </div>
+        <div class="timeline-company">Multiple Hackathons</div>
+        <p class="timeline-desc">Participated in several hackathons including cybersecurity challenges and healthcare innovation tracks. Worked in cross-functional teams to deliver working prototypes within 24-48 hour timelines.</p>
+      </div>
+      <div class="timeline-item scroll-reveal-left">
+        <div class="timeline-header">
+          <span class="timeline-role">Student Coordinator</span>
+          <span class="timeline-date">2024 - Present</span>
+        </div>
+        <div class="timeline-company">College Technical Events</div>
+        <p class="timeline-desc">Organizing technical events and workshops, managing teams, and coordinating with faculty for smooth execution of college-level tech fests and competitions.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Resume Page -->
+  <div id="resume-page" class="page">
+    <div class="resume-container">
+      <div class="resume-card scroll-reveal">
+        <div class="resume-header">
+          <h1>KUMAR ADITYA SUBHAM</h1>
+          <p>Computer Engineering Student | Web Developer | Problem Solver</p>
+          <p style="margin-top: 0.5rem;">📧 adityasubham66613@gmail.com | 📍 Pune, Maharashtra</p>
+          <button id="downloadResumeBtn" class="download-resume-btn">📄 Download Resume</button>
+        </div>
+        
+        <div class="resume-section">
+          <h2>🎓 Education</h2>
+          <div class="resume-item">
+            <h3>Bachelor of Engineering in Computer Engineering</h3>
+            <div class="meta">2024 - 2028 | Second Year</div>
+            <p>Pursuing Computer Engineering with focus on software development, data structures, algorithms, and web technologies.</p>
+          </div>
+        </div>
+
+        <div class="resume-section">
+          <h2>💼 Experience</h2>
+          <div class="resume-item">
+            <h3>Software Intern</h3>
+            <div class="meta">Software Elite Company | 2025 - Present</div>
+            <p>Working on real-world software development projects, collaborating with senior developers, participating in code reviews.</p>
+          </div>
+          <div class="resume-item">
+            <h3>Hackathon Participant</h3>
+            <div class="meta">Multiple Events | 2024 - 2025</div>
+            <p>Participated in cybersecurity and healthcare hackathons, developing solutions within 24-48 hour timelines.</p>
+          </div>
+          <div class="resume-item">
+            <h3>Student Coordinator</h3>
+            <div class="meta">College Technical Events | 2024 - Present</div>
+            <p>Organizing technical workshops and events, managing teams of volunteers.</p>
+          </div>
+        </div>
+
+        <div class="resume-section">
+          <h2>🛠️ Technical Skills</h2>
+          <div class="skills-list">
+            <span class="skill-badge">C</span>
+            <span class="skill-badge">C++</span>
+            <span class="skill-badge">Python</span>
+            <span class="skill-badge">Java</span>
+            <span class="skill-badge">JavaScript</span>
+            <span class="skill-badge">HTML5/CSS3</span>
+           
+            <span class="skill-badge">MySQL</span>
+            <span class="skill-badge">MongoDB</span>
+            <span class="skill-badge">Git/GitHub</span>
+            <span class="skill-badge">Figma</span>
+          </div>
+        </div>
+
+        <div class="resume-section">
+          <h2>🚀 Projects</h2>
+          <div class="resume-item">
+            <h3>Cyber Security Problem Statement</h3>
+            <div class="meta">Hackathon Project</div>
+            <p>Developed risk assessment framework and security solutions for small business networks.</p>
+          </div>
+          <div class="resume-item">
+            <h3>Healthcare System for Workers</h3>
+            <div class="meta">Hackathon Project</div>
+            <p>Designed mobile-friendly platform connecting workers to healthcare services.</p>
+          </div>
+          <div class="resume-item">
+            <h3>Personal Portfolio Website</h3>
+            <div class="meta">Web Development</div>
+            <p>Built responsive portfolio with dark/light mode, multi-page navigation, and scroll animations.</p>
+          </div>
+        </div>
+
+        <div class="resume-section">
+          <h2>🏆 Achievements</h2>
+          <div class="resume-item">
+            <p>• Participated in Avishkar Research Competition</p>
+            <p>• Active participant in multiple hackathons</p>
+            
+          </div>
+        </div>
+
+        <div class="resume-section">
+          <h2>🌐 Languages</h2>
+          <div class="skills-list">
+            <span class="skill-badge">English (Fluent)</span>
+            <span class="skill-badge">Hindi (Native)</span>
+            <span class="skill-badge">Marathi (Conversational)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Page -->
+  <div id="contact-page" class="page">
+    <div class="page-header">
+      <h1>Get In Touch</h1>
+      <p>Let's connect and create something amazing together</p>
+    </div>
+    <div class="contact-container">
+      <div class="contact-card scroll-reveal">
+        <div class="contact-icon">📬</div>
+        <h3>Let's Talk!</h3>
+        <p style="color: var(--muted); margin-top: 0.5rem;">I'm always open to new opportunities, collaborations, or just a friendly chat about tech.</p>
+        <div class="contact-links">
+          <a href="mailto:adityasubham66613@gmail.com" class="contact-link">
+            <span>📧</span>
+            <span>adityasubham66613@gmail.com</span>
+          </a>
+          <a href="https://linkedin.com/in/aditya-subham-117a85330" target="_blank" class="contact-link">
+            <span>🔗</span>
+            <span>linkedin.com/in/aditya-subham</span>
+          </a>
+          <a href="https://github.com/adityasubham" target="_blank" class="contact-link">
+            <span>💻</span>
+            <span>github.com/adityasubham</span>
+          </a>
+        </div>
+        
+        <!-- Contact Form -->
+        <div class="contact-form">
+  <h3 style="margin-bottom: 1.5rem;">Send me a message</h3>
+  <form id="contactForm" action="https://formsubmit.co/adityasubham66613@gmail.com" method="POST">
+    <!-- FormSubmit required fields -->
+    <input type="hidden" name="_subject" value="New Portfolio Message from Portfolio Website!">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_template" value="table">
+    <input type="hidden" name="_replyto" value="email">
+    
+    <!-- Optional: Redirect after submit -->
+    <input type="hidden" name="_next" value="https://your-portfolio.com/thank-you.html">
+    
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required placeholder="Your name">
+    </div>
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required placeholder="your@email.com">
+    </div>
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" required placeholder="What would you like to discuss?"></textarea>
+    </div>
+    <button type="submit" class="submit-btn">Send Message ✉️</button>
+    <div id="formStatus"></div>
+  </form>
+</div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="footer-content">
+    <div class="footer-section">
+      <h3>Kumar Aditya Subham</h3>
+      <p>Computer Engineering Student</p>
+    </div>
+    
+    <div class="footer-section">
+      <h4>Quick Links</h4>
+      <ul class="footer-links">
+        <li><a href="#" data-page="home" class="nav-link">Home</a></li>
+        <li><a href="#" data-page="about" class="nav-link">About</a></li>
+        <li><a href="#" data-page="skills" class="nav-link">Skills</a></li>
+        <li><a href="#" data-page="projects" class="nav-link">Projects</a></li>
+        <li><a href="#" data-page="contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+    
+    <div class="footer-section">
+      <h4>Connect</h4>
+      <div class="footer-social">
+        <a href="mailto:adityasubham66613@gmail.com" class="social-link">📧 Email</a>
+        <a href="https://linkedin.com/in/aditya-subham-117a85330" target="_blank" class="social-link">🔗 LinkedIn</a>
+        <a href="https://github.com/adityasubham" target="_blank" class="social-link">💻 GitHub</a>
+      </div>
+    </div>
+  </div>
+  
+  <div class="footer-bottom">
+    <p>© Copyright Kumar Aditya Subham - 2025 All Rights Reserved</p>
+    <p>Designed by Kumar Aditya Subham | PVPIT Pune</p>
+  </div>
+</footer>
+
+<!-- Project Detail Modal -->
+<div id="projectModal" class="modal">
+  <div class="modal-content">
+    <button class="modal-close">&times;</button>
+    <div id="modalBody"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
